@@ -1,0 +1,157 @@
+/*utilities*/
+:root{
+    --primary-clr: blue;
+    --light-clr: antiquewhite;
+    --dark-clr: #333;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    padding: 10px 30px;
+    background-color: var(--dark-clr);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn:hover{
+    transform: scale(0.95);
+}
+
+img{
+    width: 100%;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 0px 4px 3px 2px rgba(0, 0, 0, 0.3);
+    color: #333;
+    width: auto;
+    height: auto;
+    padding: 30px 5px;
+    border-radius: 10px;
+}
+
+.my-1{
+    margin: 1rem 0;
+}
+
+.my-2{
+    margin: 1.5rem 0;9
+}
+
+.my-3{
+    margin: 2rem 0;
+}
+
+.my-4{
+    margin: 3rem 0;
+}
+
+.m-1{
+    margin: 1rem ;
+}
+
+.m-2{
+    margin: 1.5rem ;
+}
+
+.m-3{
+    margin: 2rem ;
+}
+
+.m-4{
+    margin: 3rem ;
+}
+
+.m-5{
+    margin: 4rem ;
+}
+
+.m-6{
+    margin: 1rem 0;
+}
+
+.py-1{
+    padding: 1rem 0;
+}
+
+.py-2{
+    padding: 1.5rem 0;
+}
+
+.py-3{
+    padding: 2rem 0;
+}
+
+.py-4{
+    padding: 3rem 0;
+}
+
+.p-1{
+    padding: 1rem ;
+}
+
+.p-2{
+    padding: 1.5rem ;
+}
+
+.p-3{
+    padding: 2rem ;
+}
+
+.p-4{
+    padding: 3rem ;
+}
+
+.p-5{
+    padding: 4rem ;
+}
+
+.p-6{
+    padding: 1rem 0;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+
