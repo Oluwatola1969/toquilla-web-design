@@ -86,6 +86,39 @@ img{
     display: inline-block;
 }
 
+.navbarMenu a{
+    position:relative;
+    display: inline-block;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.navbarMenu a::before, .navbarMenu a::after{
+    position: absolute;
+    content: '';
+    border-bottom: 3px solid #fff;
+    bottom: .1px;
+    transition: transform .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.navbarMenu a::before{
+    width: 1em;
+    transform-origin: left;
+}
+
+.navbarMenu a:hover::before{
+    transform: scalex(0.5);
+}
+
+.navbarMenu a::after{
+    width: 85%;
+    left: 1em;
+    transform: translateX(110%);
+}
+
+.navbarMenu a:hover::after{
+    transform: translateX(0);
+}
+
 .flex li a{
     margin-left: 10px;
     
