@@ -2,7 +2,8 @@
      --primary-clr: blue;
      --sec-clr: grey;
      --light: #fff;
-     --dark: #000
+     --dark: #000;
+     --transition: all 500ms ease-in-out;
 }
 
 *{
@@ -30,18 +31,19 @@ a{
 }
 
 .btn{
-    padding: 3px 10px;
+    padding:  .5rem 1.5rem;
     background-color: blue;
     color: white;
-    border: 0;
+    border: 1px solid white;
     border-radius: 5px;
+    letter-spacing: 2px;
     display: inline-block;
     font-size: 1rem;
-
+    transition: var(--transition);
 }
 
 .btn:hover{
-    transform: scale(0.95);
+    transform: translateY(-1px);
 }
 
 img{
@@ -172,7 +174,7 @@ img{
     color: #333;
     height: 300px;
     width: 100%;
-    padding: 30px 5px;
+    padding: 2rem 1rem;
     border-radius: 10px;
     z-index: 2;
     animation: slideinfromright 1s ease-in;
@@ -443,6 +445,7 @@ img{
 .footer{
     background-color: blue;
     margin-top: 20px;
+    transition: var(--transition);
 }
  .footer .flex{
      justify-content: space-between;
@@ -451,6 +454,10 @@ img{
 
  .footer .flex p{
      color: #fff;
+ }
+
+ .footer p a{
+    transition: var(--transition);
  }
 
  .footer p a:hover{

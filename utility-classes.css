@@ -14,18 +14,19 @@ a{
 }
 
 .btn{
-    padding: 10px 30px;
+    padding: 1rem 30px;
     background-color: var(--dark-clr);
     color: white;
-    border: 0;
+    border: 1px solid white;
     border-radius: 5px;
     display: inline-block;
     cursor: pointer;
     font-size: 12px;
+    transition: all 500ms ease;
 }
 
 .btn:hover{
-    transform: scale(0.95);
+    transform: translateY(-1px);
 }
 
 img{
@@ -74,7 +75,7 @@ img{
 }
 
 .my-2{
-    margin: 1.5rem 0;9
+    margin: 1.5rem 0;
 }
 
 .my-3{
